@@ -1,6 +1,6 @@
 // Caches the app shell so it opens offline. Sync data is never cached —
 // check marks always come from the network or localStorage.
-const CACHE = 'fall26-tracker-v1';
+const CACHE = 'fall26-tracker-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
